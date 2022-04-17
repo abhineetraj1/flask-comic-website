@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<meta name="description" content="Contact us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<script src="/assets/script/script.js"></script>
+	<link rel="shortcut icon" href="/assets/pic/fav.png">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--Linking animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+
+    <!--Linking CSS file -->
+    <link rel="stylesheet" href="/assets/css/con-style.css">
+	<style type="text/css">
+		.sec{
+			border: solid;
+			border-color: black;
+			border-width:2px;
+			float:left;
+			border-radius: 20px;
+			margin: 1vh;
+		}
+		section{
+			width: 100%;
+		}
+		.sec:hover{
+			border-color: blue;
+		}
+		.sub-sec{
+			width: 100%;
+			border-radius: 20px 20px 0px 0px;
+		}
+		.txt-sec{
+			height: 5vh;
+			font-size: 3vh;
+			text-align: center;
+		}
+	</style>
+	<script type="text/javascript">
+		if(window.innerHeight>window.innerWidth) {
+			document.getElementsByTagName('style')[0].innerHTML=document.getElementsByTagName('style')[0].innerHTML+".sec{width:45%}";
+		} else {
+			document.getElementsByTagName('style')[0].innerHTML=document.getElementsByTagName('style')[0].innerHTML+".sec{width:31%}";
+		}
+	</script>
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">Comics</label>
+		<ul>
+      <li><a class="active" href="/">Home</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="contact">Contact</a></li>
+		</ul>
+	</nav>
+	<section>
+     <div class="container">
+    <div class="wrapper animated bounceInLeft">
+      <!-- Company Information -->
+      <div class="company-info">
+        <h3>Contact us</h3>
+      </div>
+
+      <!-- Contact-->
+      <div class="contact">
+        <form method="POST" action="/submit">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name">
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email">
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input type="number" name="phone">
+          </p>
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5"></textarea>
+          </p>
+          <p class="full">
+            <button>Submit</button>
+          </p>
+        </form>
+
+
+      </div>
+    </div>
+  </div>
+	</section>
+</body>
+</html>
