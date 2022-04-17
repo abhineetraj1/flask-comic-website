@@ -9,6 +9,7 @@ First install python3.x and pip lib
  flask run
  ```
  ## For windows
- ```pip install flask
+ ```
+ pip install flask
  flask run
  ```
