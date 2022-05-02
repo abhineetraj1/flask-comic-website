@@ -3,7 +3,8 @@
 Made in python3.6 (using Flask lib)
 
 ## Installation
-First install python3.6 in your respective system
+1) First install python3.6 in your respective system
+2) Download this source code
 
 ### For macOS
 
