@@ -1,5 +1,7 @@
 # flask-comic-website
 
+This website presents you the superhero comic book stories of Marvel and DC.
+
 Made in python3.6 (using Flask lib)
 
 ## Installation
