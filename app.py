@@ -20,7 +20,7 @@ def k2():
 	return render_template("contact.html")
 
 @app.errorhandler(404)
-def k3():
+def k3(a):
 	return render_template("err.html")
 
 @app.errorhandler(Exception)

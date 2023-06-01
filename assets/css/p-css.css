@@ -1,22 +1,21 @@
 .sec{
-	border: solid;
-	border-color: black;
+	box-shadow: 0px 0px 10px black;
 	border-width:2px;
 	float:left;
-	border-radius: 10px;
-	margin: 1vh;
-	height:40vh;
+	border-radius: 8px;
+	margin-top: 2vh;
+	height:38vh;
 }
 section{
 	width: 100%;
 }
 .sec:hover{
-	border-color: blue;
+	box-shadow:0px 0px 20px red;
 }
 .sub-sec{
-	height:34vh;
+	height:30vh;
 	width: 100%;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 8px 8px 0px 0px;
 }
 .txt-sec{
 	height: 5vh;
@@ -29,17 +28,30 @@ body{
 }
 nav{
 	background: #cc1100;
-	height: 7vh;
+	height: 8vh;
 	width: 100%;
+	box-shadow: 0px 0px 10px black;
 }
 .mn-btn{
-	height: 5vh;
-	width: 40%;
-	font-size: 3vh;
+	padding: 10px;
+	font-size: 19px;
 	text-align: center;
 	background: white;
 	color: black;
-	border-radius: 10px;
+	border-radius: 8px;
 	margin: 1vh;
-	padding: 1vh;
+}
+@media screen and (max-width:750px) {
+	.sec{
+		width: 40%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+@media screen and (min-width:750px) {
+	.sec{
+		width: 20%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
 }
